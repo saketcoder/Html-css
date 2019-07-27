@@ -1,0 +1,128 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: azure;
+}
+#mainBody{
+    padding: 1px,0px,0px,1px;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: aqua;
+}
+.nav-menu{
+    list-style: none;
+    margin: 16px;
+    padding: 30px 30px 30px 0px ; 
+}
+
+.nav-menu li{
+   min-width: 2em;
+   float: left;
+   margin-right: 3.5em;
+   text-align: centre;
+}
+
+
+.nav-menu li a:link,
+.nav-menu li a:visited{
+    background-color:whitesmoke;
+    display: block;
+    border: 0.5px solid black;
+    padding: 0.2em;
+    margin: 0 0 0.2em 0;
+    text-decoration: none;
+     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-border-radius: 3px;
+    -moz-border-radius:3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+
+}
+.nav-menu li a:hover {
+    background-color: aquamarine;
+    -webkit-transform: scale(2,2)
+}
+
+.clear{
+    clear: both;
+}
+header{
+    background-color: azure ;
+    padding-bottom: 20px;
+    
+}
+#welcomeDiv{
+    background-color: salmon;
+    float: left;
+    width: 70%;
+    padding: 13px;
+    padding-bottom: 59px;
+    margin-left: 16px;
+    border-radius: 0.5em;
+    box-shadow:3px 3px 3px 3px rgba(43,43,77,0.5);
+    margin-bottom: 20px;
+}
+ #newsletter{
+    background-color: rgb(114, 211, 250) ;
+    float: right;
+    margin: 0px 10px 0px 0px;
+    padding: 15px;
+    border-radius: 0.5em;
+    box-shadow:3px 3px 3px 3px rgba(43,43,77,0.5);
+ }
+ #leftDiv{
+    background-color: silver ;
+    width: 40%;
+    float: left;
+    padding: 10px;
+    height: 200px;
+    margin: 20px;
+    box-shadow:3px 3px 3px 3px rgba(43,43,77,0.5);
+ }
+ #rightDiv{
+    background-color: silver ;
+    width: 40%;
+    float: right;
+    padding: 10px;
+    height: 200px;
+    margin: 20px;
+    box-shadow:3px 3px 3px 3px rgba(43,43,77,0.5);
+ }
+ footer{
+     background-color: yellow;
+     font-family: Arial, Helvetica, sans-serif;
+     height: 50px;
+     text-align: center;
+     padding-top: 20px;
+     margin-top: 20px;
+     box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+ }
+ #o{
+     border-radius: 10px;
+     margin-bottom: 5px;
+     margin-top: 2px;
+     box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+
+ }
+ #p{
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(43,43,77,0.5);
+}
+#leftDiv img{
+    background-image: url(https://grantcardone.com/);
+    width:25%;
+    height: 50%;
+    float: right;
+}
+#rightDiv img{
+    background-image: url(https://grantcardone.com/cu?utm_source=cardoneu&utm_medium=zotabox&utm_campaign=freetrial);
+    width: 50%;
+    float: right;
+
+}
