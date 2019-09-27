@@ -1,0 +1,33 @@
+<!-- 
+
+<div class="col-5 mx-auto">
+  <div class="jumbotron">
+    <div class="text-centre">
+      <div class="thumbnail">
+        ---<img style="width:100%" src="/assets/c3.jpg" alt="">
+        <div class="caption">
+         
+          <div *ngFor="let e of employeedata | paginate: { itemsPerPage: count, currentPage: p }">
+
+            <img class="rounded mx-auto d-block" style="width:100%" [src]="e.imageUrl" />
+
+          </div>
+          
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-Including the pagination control.-
+<div class="text-right">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </div>
+
+
+-->
+
+
+
+
+<router-outlet></router-outlet> 
